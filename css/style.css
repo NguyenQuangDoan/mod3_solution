@@ -1,0 +1,104 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+  }
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  h2{
+      text-align: center;
+      text-transform: uppercase;
+      color: #f6b319;
+  }
+
+  .row {
+      text-align: center;
+      margin-top: 15px;
+  }
+
+  #chicken-tile, #beef-tile, #sushi-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+  #chicken-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  #chicken-tile {
+    background: url('https://dinnerthendessert.com/wp-content/uploads/2017/10/Slow-Cooker-Mongolian-Chicken.jpg') no-repeat;
+    background-position: center;
+  }
+  #beef-tile {
+    background: url('https://www.seriouseats.com/recipes/images/2014/12/20150110-beef-stroganoff-food-lab-28-1500x1125.jpg') no-repeat;
+    background-position: center;
+  }
+  #sushi-tile {
+    background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/06/14/722404/834827aa0c036d78c76719151c0f4234-700.jpg') no-repeat;
+    background-position: center;
+  }
+  #chicken-tile span, #beef-tile span, #sushi-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  
+ 
